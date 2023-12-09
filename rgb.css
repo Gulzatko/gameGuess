@@ -1,0 +1,75 @@
+body{
+    background-color: #232323;
+    font-family: 'Oswald', sans-serif;
+    margin:0;
+}
+.square{
+    width:30%;
+    padding-top: 30%;
+    margin:1.66%;
+    background-color: purple;
+    float:left;
+    border-radius: 25px;
+    transition:background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+
+}
+#container{
+    max-width: 600px;
+    margin:0 auto;
+    padding-top: 1.66%;
+    background-color: #232323;
+}
+h1{
+    color:white;
+    text-align: center;
+}
+header{
+    width:100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:white;
+    background-color:#E8EFF9;
+    margin:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+#reset{
+    margin-left:32%;
+    margin-top: 5px;
+    height: 100%;
+}
+.selected{
+    background-color: steelblue;
+    color: white;
+}
+.options{
+    background-color: white;
+    padding: 20px 0;
+    margin:0;
+    height: 100%;
+}
+#goal{
+    text-transform: uppercase;
+}
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    color:steelblue;
+    transition: all 0.5s;
+    -webkit-transition:all 0.5s;
+    -moz-transition: all 0.5s;
+    outline: none;
+}
+button:hover{
+    color:white;
+    background: steelblue;
+}
